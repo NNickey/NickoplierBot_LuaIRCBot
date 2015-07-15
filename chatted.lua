@@ -120,7 +120,7 @@ return function(host,nick,fmsg,torr,channel) --host ip, nick, fullmessage, typeo
 				}
 			},
 				--Spanish
-			{	{"español","alguien","pasa","ukljucim","mi das","holla","izbacila","srbine","imaju"
+			{	{"español","alguien","pasa","ukljucim","mi das","holla","izbacila","srbine","imaju","instala"
 				},
 				{"No se permite hablar cualquier otra idioma aparte de Inglés, por las reglas. Si quieres hablar en tu idioma, puedes hablar con otras personas en privado, utilizando /msg <nombre> <mensaje> , con las personas que también hablan tu idioma."
 				}
