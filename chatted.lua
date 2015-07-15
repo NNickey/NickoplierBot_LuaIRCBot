@@ -35,7 +35,6 @@ return function(host,nick,fmsg,torr,channel) --host ip, nick, fullmessage, typeo
 					SendMessage("You're the winner! You are now on the acknowledge board! Wait 15m to go again.",nick,torr,channel)
 					table.insert(isbotletsrollwinner,nick)
 					table.save(isbotletsrollwinner,"TimeoutWaitWin")
-					--test github windows commit
 				else
 					SendMessage("You didn't win :(, shake it again in 15 minutes.",nick,torr,channel)
 				end 
