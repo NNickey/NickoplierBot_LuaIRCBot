@@ -208,7 +208,7 @@ do
 		local buffer=""
 		local err=""
 		skt = socket.tcp()
-		skt:settimeout(0) --nonblocking
+		skt:settimeout(3) -- forgot to add optimization to prevent CPU load.
 		skt:connect(host, port)
 		function IRCSend(data)
 			skt:send(data.."\r\n")
